@@ -29,13 +29,13 @@ Tool to synchronize an iTunes music library (music, playlist, other) with an MTP
 # Setup
 ## Install required stuff on macOS
 ### MTP connection
-  1. Install osxfuse (https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.7.1/osxfuse-3.7.1.dmg)
-  2. Install simple-mtpfs
-  3. If not yet installed, install homebrew : https://brew.sh/
-  4.  `brew install simple-mtpfs`
+1. Install osxfuse (https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.7.1/osxfuse-3.7.1.dmg)
+1. Install simple-mtpfs
+   1. If not yet installed, install homebrew : https://brew.sh/
+   1.  `brew install simple-mtpfs`
 ### Playlist management
-  1. Download itunesexport : https://sourceforge.net/projects/itunesexport/files/iTunesExport/2.2.2/iTunesExportScala-2.2.2.zip/download
-  2. Unzip into /Applications/
+1. Download itunesexport : https://sourceforge.net/projects/itunesexport/files/iTunesExport/2.2.2/iTunesExportScala-2.2.2.zip/download
+1. Unzip into /Applications/
   
 ## Adapt script variables to your needs
 Look at script headers and adapt it to your environment
