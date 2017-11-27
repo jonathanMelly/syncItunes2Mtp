@@ -43,6 +43,7 @@ Look at script headers and adapt it to your environment
 ## Install required stuff on Android
 1. Install [MortPlayer](https://play.google.com/store/apps/details?id=de.stohelit.folderplayer)
    1. Configure it to look in the music folder (OUTPUT_MUSIC var in script)
+   1. Set playlist encoding to UTF-8
 1. Install [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc)
 
 # Run script and ENJOY ;-)
