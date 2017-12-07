@@ -2,12 +2,12 @@
 VOLUME="fairphone" #volume name for MTP mount (label of disk)
 MOUNT_POINT="/mnt/mtp" #place to mount the MTP enabled device
 
-OUTPUT="${MOUNT_POINT}/FAIREXTENSI/audio/" #target root folder on MTP device
+OUTPUT="${MOUNT_POINT}/FAIREXT16/audio/" #target root folder on MTP device
 OUTPUT_MUSIC="${OUTPUT}Music/"
 OUTPUT_OTHER="${OUTPUT}specialAudioContent/"
 
-INPUT_MUSIC="~/Music/music/" # iTunes Media/Music folder (here I used a symlink)
-INPUT_OTHER="~/Music/specialAudioContent/" # Other audio folder
+INPUT_MUSIC="/Users/${USER}/Music/music/" # iTunes Media/Music folder (here I used a symlink)
+INPUT_OTHER="/Users/${USER}/Music/specialAudioContent/" # Other audio folder
 
 #force ctr-c to stop ALL
 trap "exit" INT
